@@ -4,8 +4,8 @@
 
 Bem-vindo(a) à sua atividade prática de Lógica Computacional! Siga os passos abaixo para completar o desafio.
 
-**Nome do Aluno:** [Preencha seu nome aqui]
-**Matrícula:** [Preencha sua matrícula]
+**Nome do Aluno:**   Pedro Alencar Gonçalves
+**Matrícula:** 20261100058
 ---
 
 ## 🎯 Objetivo
@@ -41,18 +41,21 @@ Olhando para os blocos que você usou para resolver o jogo no nível 10, imagine
 
 *(Edite este arquivo e escreva suas respostas dos Passos 3 e 4 aqui embaixo. Lembre-se de colocar a imagem do Passo 2 dentro da pasta **/imagens** deste repositório)*
 
+
 ## 2. Evidência Visual (Screenshot)
 *Suba o screenshot da sua solução final (onde aparece "Você resolveu este nível!") para a pasta **/imagens** deste repositório.*
 
 ## 3. Estratégia Utilizada
 *Explique com suas palavras como você resolveu o problema. Qual foi a lógica?*
-> Escreva aqui... Exemplo: Percebi que o padrão se repetia 3 vezes, então criei um bloco de função para desenhar a ponta da estrela e usei um loop...
+Para resolver o nível 9 ( último) eu utilizei a mesma função em que havia utilizado no nível 8 para desenhar as estrelas, que consiste em um loop que se move para frente e para direita, a fim de desenhar uma estrela e, dentro desse loop, possui um segundo loop que move a caneta para o começo das outras estrelas e as completa com o primeiro loop.
+Depois, para preencher a "lua", inicialmente precisei completar o círculo todo de branco repetindo o processo de se  movimentar para frente e para trás com uma inclinação de 1º, com um loop de 360 repetições. Por fim, setei a cor para o preto, virando a "tartaruga" para uma inclinação de 120º a direita e avançando-a em 20 unidades, a fim de realizar outro loop de frente e trás, preenchendo um círculo que cobre a parte necessária para transformar-se em uma "lua".
 
 ## 4. Desafio:
-**A)** Escreva aqui...
+**A)** São 6 loops para desenhar um hexágono e o ângulo em que a tartaruga deve virar é de 60º.
   
-**B)** Escreva aqui...
+**B)** O ângulo de giro deve ser de 90º
   
-**C)** Escreva aqui...
+**C)** Para o ângulo da questão A, eu me recordei do ângulo utilizado para montar um pentágono (72º) e então percebi que para qualquer polígono, seu ângulo externo é igual a 360º. Como o objetivo era um hexágono, bastava dividir esse valor por 6 (números de lados), resultando em 60º.
+Para o ângulo da questão C, seguindo a lógica de um círculo completo possuir 360º e termos 4 figuras, dividi 360 por 4, resultando em 90º.
 
 ---
